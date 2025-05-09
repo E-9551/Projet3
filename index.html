@@ -38,13 +38,21 @@
                     <p>En plein centre-ville ou en pleine nature</p>
                 </div>
                 <div class="barre-recherche">
-                    <from method="get" action="#">
-                        <div class="recherche-label">
+                    <from class="search-form" method="get" action="#">
+                        <div class="search-label">
                             <label for="recherche"><i class="fa-solid fa-location-dot"></i></label>
                         </div>
-                        <div class="recherche-texte">
-                            <input type="search" id="site-searchs" name="q" placeholder="Marseille, France"><button
-                                type="submit" class="button">Recherche</button>
+                        <div class="search-text">
+                            <input type="search" id="Recherche" name="q"  autofocus placeholder="Marseille, France">
+                        </div>
+                        <div class="two-buttons">
+                            <div class="search-submit-large">
+                                <input type="submit" value="Recherche">
+                            </div>
+                            <div class="search-submit-medium fas fa-seatch">
+                                <input type="submit-medium fas fa-search" value="Recherche">
+                            </div>
+
                         </div>
                     </from>
                 </div>
