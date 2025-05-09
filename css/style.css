@@ -140,7 +140,7 @@ p{
     margin-left: -4px;
     padding-left: 15px;
     border: 1px solid #0065FC;
-    border-radius: 0 15px 0;
+    border-radius: 0 15px 15px 0;
     background: #0065FC;
     font-weight: 700;
     font-size: 18px;
