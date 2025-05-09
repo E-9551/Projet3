@@ -105,7 +105,26 @@ p{
     margin-left: 17px;
     margin-top: 0px;
 }
-.recherche-text input{
+.search-form{
+    display: flex;
+    margin-top: 18px;
+    margin-left: 21px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.search-label{
+    background-color: #F2F2F2;
+    border-radius: 15px 0 0 15px;
+    width: 50px;
+    height: 49px;
+    border: 1px solid #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.search-text input{
     width: 198px;
     height: 48px;
     border: 1px solid  #F2F2F2;
@@ -114,7 +133,7 @@ p{
     text-align: center;
     box-sizing: border-box;
 }
-button{
+.search-submit-large input{
     display: block;
     width: 134px;
     height: 50px;
@@ -131,17 +150,8 @@ button{
     opacity: 0.9;
 }
 
-.recherche-label{
-    background-color: #F2F2F2;
-    border-radius: 15px 0 0 15px;
-    width: 50px;
-    height: 49px;
-    border: 1px solid #F2F2F2;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
+.search-submit-large input:hover{
+   opacity: 1;
  }
 
 
