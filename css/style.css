@@ -153,7 +153,65 @@ p{
 .recherche-submit-large input:hover{
    opacity: 1;
  }
-
+ .box-filtre h3{
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 40px;
+    margin-left: 23px;
+    margin-bottom: 3px;
+    align-items: center;
+    height: 10px;
+    font-size: 18px;
+ }
+ .titre-filtres{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 5px;
+    margin-top: 100px;
+    margin-left: 5px;
+    margin-right: 10px;
+ }
+ .box-filtre p{
+    font-size: 8px;
+    font-weight: 100;
+ }
+ .liste-filtres {
+    display: flex;
+    box-sizing: border-box;
+    height: 45px;
+    width: auto;
+    padding-left: 0;
+    margin-top: 53px;
+    justify-content: space-between;
+    gap: 15px;
+    cursor: pointer;
+ }
+ .box-filtre{
+    display: flex;
+    align-items: center;
+ }
+ .filtres{
+    display: flex;
+    border: 1px solid #d9d9d9;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 6px 15px;
+    width: auto;
+ }
+ .liste-filtres{
+    margin-left: 0px;
+    gap: 30px;
+ }
+.liste-filtres i{
+    font-size: 1.3em;
+}
+.filtres:hover{
+    background-color: #DEEBFF;
+}
 
 
 
