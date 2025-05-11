@@ -326,7 +326,7 @@ p{
 .photo-activite .photo {
     display: flex;
     flex-direction: column;
-    width: 25px;
+    width: 75%;
     margin-left: 35px;
 }
 .photo-activite img{
