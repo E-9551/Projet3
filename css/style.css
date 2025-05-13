@@ -359,9 +359,28 @@ p{
     padding: 0 0px 0 0px;
     width: 100%;
 }
-.pied-page{
+
+footer{
     display: flex;
     justify-content: space-between;
+    background-color: #F2F2F2; 
+    border-radius: 20px;
+    margin-top: 60px;
+    
+    
+}
+.supplement{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.pied-page{
+    display: flex;
+    bo
+
+    
 }
 
 
