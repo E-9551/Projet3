@@ -363,6 +363,8 @@ p{
 footer{
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
     background-color: #F2F2F2; 
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -370,8 +372,8 @@ footer{
 }
 .pied-page{
     display: flex;
-    align-content: flex-start;
-    gap:120px;
+    box-sizing: border-box;
+    
 }
 .supplement{
     text-align: left;
@@ -381,7 +383,9 @@ footer{
 
 }
 .liste-pied-page {
-    text-align: center;
+    display: grid;
+    grid-column: auto;
+    text-align: justify;
 }
 
 
