@@ -93,6 +93,7 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     margin-top: 30px;
+    margin-bottom: 15px;
 }
 h1{
     display: flex;
@@ -189,6 +190,8 @@ p{
  .box-filtre{
     display: flex;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
  }
  .filtres{
     display: flex;
@@ -211,6 +214,10 @@ p{
 }
 .filtres:hover{
     background-color: #DEEBFF;
+}
+.info{
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 
@@ -306,7 +313,7 @@ p{
 
 .populaires-cards .card-title {
     margin-top: 10px;
-    margin-bottom: 4px;
+    margin-bottom: 40px;
 }
 
 .populaires-cards .card-subtitle {
@@ -322,6 +329,10 @@ p{
     margin-bottom: 0;
     margin-left: 25px;
     justify-content: space-between;
+}
+.titre-activité{
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
 .photo-activite .photo {
     display: flex;
@@ -361,32 +372,44 @@ p{
 }
 
 footer{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
     background-color: #F2F2F2; 
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
     margin-top: 60px;    
 }
-.pied-page{
+.conteneur-footer{
+    width: 1200px;
+    margin: 0 auto;
     display: flex;
-    box-sizing: border-box;
+    align-items: flex-start;
+    font-size: 20px;
+    padding-left: 2px;
+    padding-right: 80px;
+    gap: 250px;
     
 }
-.supplement{
-    text-align: left;
-    justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 20px;
+.conteneur-footer h3{
+    font-size: 15px;
+    padding-left: 18px;
+}
 
+.bloc-conteneur-footer{
+    display: flex;
+    text-align: left;
+    
+    flex-direction: column;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    
 }
-.liste-pied-page {
-    display: grid;
-    grid-column: auto;
-    text-align: justify;
+.bloc{
+    width: 15%;
+    margin: 0 30px;
 }
+
+.liste-service{
+    list-style-type: none;
+}
+
 
 
 
