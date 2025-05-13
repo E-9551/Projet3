@@ -364,23 +364,24 @@ footer{
     display: flex;
     justify-content: space-between;
     background-color: #F2F2F2; 
-    border-radius: 20px;
-    margin-top: 60px;
-    
-    
-}
-.supplement{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-
-
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 60px;    
 }
 .pied-page{
     display: flex;
-    bo
+    align-content: flex-start;
+    gap:120px;
+}
+.supplement{
+    text-align: left;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
 
-    
+}
+.liste-pied-page {
+    text-align: center;
 }
 
 
