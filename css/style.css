@@ -186,16 +186,18 @@ p{
     justify-content: space-between;
     gap: 15px;
     cursor: pointer;
+    list-style-type: none;
  }
  .box-filtre{
     display: flex;
     align-items: center;
+    flex-direction: row;
     margin-top: 20px;
     margin-bottom: 20px;
  }
  .filtres{
     display: flex;
-    border: 1px solid #d9d9d9;
+    border: black;
     border-radius: 25px;
     align-items: center;
     justify-content: center;
@@ -256,6 +258,11 @@ p{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     
+}
+.card:hover{
+    opacity: 1;
+    transition: transform 0.5s;
+    transform: scale(1.03);
 }
 
 .hebergements-cards .card-content {
@@ -323,6 +330,13 @@ p{
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
+.activité{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0px 0 0px;
+    width: 100%;
+}
 
 .photo-activite {
     display: flex;
@@ -337,8 +351,16 @@ p{
 .photo-activite .photo {
     display: flex;
     flex-direction: column;
-    width: 75%;
-    margin-left: 35px;
+    width: 25%;
+     margin-left: 35px;
+}
+.photo-activite img{
+    width: 100%;
+    height: 370px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-sizing: border-box;
+
 }
 .photo-activite .titre-activité{
     margin: 20px;
@@ -354,21 +376,6 @@ p{
     opacity: 1;
     transition: transform 0.5s;
     transform: scale(1.03);
-}
-
-.photo-activite img{
-    width: 100%;
-    height: 370px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    box-sizing: border-box;
-}
-.activité{
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    padding: 0 0px 0 0px;
-    width: 100%;
 }
 
 footer{
