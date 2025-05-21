@@ -16,66 +16,83 @@
 
 <body>
     <div class="main-container">
+        <div class="lien-logo">
+            <a href="index.html"><img src="images/logo/Booki.png" alt="logo booki"></a>
+
+
+            <nav>
+                <ul class="ul-nav">
+                    <ul><a href="#hebergements">Hébergements</a></ul>
+                    <ul><a href="#activites">Activités</a></ul>
+                </ul>
+
+            </nav>
+        </div>
         <header>
-            <div class="lien-logo">
-                <a href="#" class="logo">
-                    <img src="images/logo/Booki.png" alt="logo du site">
-                </a>
-                <nav>
-                    <ul class="ul-nav">
-                        <li><a href="#hebergements">Hébergements</a></li>
-                        <li><a href="#activites">Activités</a></li>
-                    </ul>
-                </nav>
+
+
+            <div>
+
+                <div class="text">
+                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <p>En plein centre-ville ou en pleine nature</p>
+                </div>
+                <div class="barre-recherche">
+                    <from class="recherche-form" method="get" action="#">
+                        <div class="recherche-label">
+                            <label for="recherche"><i class="fa-solid fa-location-dot"></i></label>
+                        </div>
+                        <div class="recherche-text">
+                            <input type="search" id="Recherche" name="q" autofocus placeholder="Marseille, France">
+                        </div>
+                        <div class="two-buttons">
+                            <div class="recherche-submit-large">
+                                <input type="submit" value="Recherche">
+                            </div>
+
+                        </div>
+                    </from>
+                </div>
+            </div>
+            <div class="box-filtre">
+                <h3 class="tittre Filtres"><strong>Filtres</strong></h3>
+                <ul class="liste-filtres">
+                    <li class="Filtres"><i class="fa-solid fa-money-bill-wave"></i>Economique</li>
+                    <li class="Filtres"><i class="fa-solid fa-person"></i>Famillial</li>
+                    <li class="Filtres"><i class="fa-solid fa-heart"></i>Romantique</li>
+                    <li class="Filtres"><i class="fa-solid fa-fire"></i>Nos pépiites</li>
+                </ul>
+            </div>
+            <div class="info">
+                <i class="fa-solid fa-info"></i>
+                <span>Plus de 500 logements sont disposnibles dans cette ville</span>
+            </div>
+             <div class="all-filters">
+                <h3>Filtres</h3>
+                <ul>
+                    <li>
+                        <i class="fas fa-money-bill-wave icon-filter"></i>
+                        <span>Économique</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-child icon-filter"></i>
+                        <span>Familial</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-heart icon-filter"></i>
+                        <span>Romantique</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-dog icon-filter"></i>
+                        <span>Animaux autorisés</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="alert-info">
+                <i class="fas fa-info icon-info"></i>
+                <span>Plus de 500 logements sont disponibles dans cette ville</span>
             </div>
         </header>
-
-        <div>
-            <div class="text">
-                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                <p>En plein centre-ville ou en pleine nature</p>
-            </div>
-        </div>
-        <from class="barre-recherche" method="get" action="#">
-            <div class="recherche-form">
-                <div class="recherche-label">
-                    <label for="search"><i class="fa-solid fa-location-dot"></i></label>
-                </div>
-                <div class="recherche-text">
-                    <input type="search" id="search" name="q" autofocus placeholder="Marseille, France">
-                </div>
-                <div class="two-buttons">
-                    <div class="recherche-submit-large">
-                        <input type="submit" value="Recherche">
-                    </div>
-                </div>
-            </div>
-        </from>
-
-
-        <div class="box-filtre">
-            <h3>Filtres</h3>
-            <ul>
-                <li>
-                    <i class="fa-solid fa-money-bill-wave"></i>
-                    <span>Economique</span>
-                </li>
-                <li>
-                    <i class="fa-solid fa-person"></i>
-                    <span>Famillial</span>
-                </li>
-                <li><i class="fa-solid fa-heart"></i>
-                    <span>Romantique</span>
-                </li>
-                <li><i class="fa-solid fa-fire"></i>
-                    <span>Nos pépites</span>
-                </li>
-            </ul>
-        </div>
-        <div class="info">
-            <i class="fas fa-info icon-info"></i>
-            <span>Plus de 500 logements sont disponibles dans cette ville</span>
-        </div>
         <main>
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
@@ -284,28 +301,28 @@
                             <img src="images/activites/vieux-port.jpg" alt="photo du vieux port">
                             <h3>Vieux portin</h3>
                         </div>
-                    </a>
-                </div>
-                <div class="photo">
-                    <a href="#">
-                        <div class="cards">
-                            <img src="images/activites/port-de-pomegue.jpg" alt="photo du port de pomegue">
+                    </article>
+                </a>
+                <a href="#">
+                    <article class="photo">
+                        <img src="images/activites/port de pomegue.jpg" alt="photo du port de pomegue">
+                        <div class="photo-texte">
                             <h3>Port de Pomègues</h3>
                         </div>
-                    </a>
-                </div>
-                <div class="photo">
-                    <a href="#">
-                        <div class="cards">
-                            <img src="images/activites/parc-national.jpg" alt="photo du parc national des calanques">
+                    </article>
+                </a>
+                <a href="#">
+                    <article class="photo">
+                        <img src="images/activites/parc national.jpg" alt="photo du parc national des calanques">
+                        <div class="photo-texte">
                             <h3>Parc National des Calanques</h3>
                         </div>
-                    </a>
-                </div>
-                <div class="photo">
-                    <a href="#">
-                        <div class="cards">
-                            <img src="images/activites/notre-dame.jpg" alt="photo de notre dame de la garde">
+                    </article>
+                </a>
+                <a href="#">
+                    <article class="photo">
+                        <img src="images/activites/notre dame.jpg" alt="photo de notre dame de la garde">
+                        <div class="photo-texte">
                             <h3>Notre-Dame-de-la-Garde</h3>
                         </div>
                     </a>
